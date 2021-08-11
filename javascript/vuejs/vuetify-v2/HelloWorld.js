@@ -3,6 +3,7 @@ new Vue({
   vuetify: new Vuetify(),
   components: {
     SampleButtons,
+    SampleDataTable,
   },
   data() {
     return {
@@ -23,6 +24,7 @@ new Vue({
       </v-col>
     </v-row>
     <SampleButtons />
+    <SampleDataTable />
   </v-container>
 </v-app>
 `
