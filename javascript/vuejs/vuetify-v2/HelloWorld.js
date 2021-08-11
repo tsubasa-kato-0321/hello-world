@@ -1,6 +1,9 @@
 new Vue({
   el: '#hello-world',
   vuetify: new Vuetify(),
+  components: {
+    SampleButtons,
+  },
   data() {
     return {
       message: 'Hello, Vuetify(v2).',
@@ -19,6 +22,7 @@ new Vue({
         <v-text-field v-model="message" />
       </v-col>
     </v-row>
+    <SampleButtons />
   </v-container>
 </v-app>
 `
